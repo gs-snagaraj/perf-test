@@ -30,7 +30,7 @@ public class Main {
       Map<String, Object> attributes = new HashMap<>();
       long tim = System.currentTimeMillis();
         try {
-            Thread.sleep(344);
+            //Thread.sleep(344);
             //oomGenerator.generateOOM();
             oomGenerator.measuredFunction();
 
