@@ -31,7 +31,8 @@ public class Main {
       long tim = System.currentTimeMillis();
         try {
             Thread.sleep(344);
-            oomGenerator.generateOOM();
+            //oomGenerator.generateOOM();
+            oomGenerator.measuredFunction();
 
         }catch(Exception e) {};
         long duration = System.currentTimeMillis() - tim;
